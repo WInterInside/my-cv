@@ -47,99 +47,16 @@ img {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 40px 2px gray;
-  padding: 50px 50px 50px 50px;
+  padding: 50px 80px 0 80px;
   background-color: #ffffff;
 }
 .index-header {
   display: flex;
   justify-content: space-between;
 }
-@-webkit-keyframes rubberBand {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  30% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1);
-  }
-
-  40% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1);
-  }
-
-  50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1);
-  }
-
-  65% {
-    -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1);
-  }
-
-  75% {
-    -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
+.header-containder h1 {
+  padding-left: 40px;
 }
-
-@keyframes rubberBand {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  30% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1);
-  }
-
-  40% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1);
-  }
-
-  50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1);
-  }
-
-  65% {
-    -webkit-transform: scale3d(0.95, 1.05, 1);
-    transform: scale3d(0.95, 1.05, 1);
-  }
-
-  75% {
-    -webkit-transform: scale3d(1.05, 0.95, 1);
-    transform: scale3d(1.05, 0.95, 1);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-.rubberBand {
-  -webkit-animation-name: rubberBand;
-  animation-name: rubberBand;
-}
-
-h2 {
-  margin-left: 400px;
-}
-.pulsed {
-  animation: rubberBand  5s infinite ;
-}
-
 
 .contacts,
 .skills,
@@ -148,6 +65,9 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+.contacts {
+  padding-left: 40px;
 }
 .contacts-item,
 .experience-item {
@@ -184,9 +104,10 @@ h2 {
   display: flex;
   justify-content: space-around;
   width: 500px;
+  padding-top: 40px;
 }
 .my-ph{
-  width: 300px;
+    width: 300px;
   height: 300px;
   border-radius: 50% 50%;
   box-shadow: 0 0 10px 0 #000000;
@@ -200,4 +121,18 @@ h2 {
   width: 400px;
   min-height: 200px;
   padding: 20px;
+}
+footer {
+  width: 1200px;
+  min-height: 20px;
+  background-color: cyan;
+  margin-left: -80px;
+  margin-top: 20px;
+  }
+
+footer p {
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 550px;
+  letter-spacing: 3px;
 }
