@@ -11,7 +11,7 @@ html {
     box-sizing: content-box;
 }
 body {
-    min-width: 1920px;
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", "Arial", sans-serif;
@@ -43,9 +43,8 @@ img {
 }
 .container {
   position: relative;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1000px;
+  margin: 0 auto;
   box-shadow: 0 0 40px 2px gray;
   padding: 50px 80px 0 80px;
   background-color: #ffffff;
@@ -89,6 +88,7 @@ img {
   box-shadow: 0 0 5px 0 black;
   padding: 5px;
   margin-right: 5px;
+  margin-bottom: 15px;
     transition: 0.7s;
 }
 .skill-item:hover,
@@ -118,22 +118,21 @@ img {
 .education-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .education-item {
   background-color: lightblue;
   width: 400px;
-  min-height: 200px;
   padding: 20px;
 }
 footer {
-  width: 1200px;
   min-height: 20px;
   background-color: cyan;
-  margin-left: -80px;
-  margin-top: 20px;
+  margin: 20px -80px 0 -80px;
   }
 
 footer p {
+
   font-size: 12px;
   font-weight: bold;
   padding-left: 550px;
